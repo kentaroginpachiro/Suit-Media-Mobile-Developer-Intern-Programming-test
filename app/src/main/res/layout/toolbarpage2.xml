@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#95ffffff">
+
+    <ImageView
+        android:id="@+id/page2arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/arrow"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SECOND SCREEN"
+        style="@style/TextAppearance.Material3.BodyLarge"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>
